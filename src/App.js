@@ -14,7 +14,7 @@ class App extends Component {
     const response = await fetch('https://api.coincap.io/v2/assets')
     const fetchedData = await response.json()
     this.setState({coinCapData: fetchedData.data})
-  }
+
 
   render() {
     const {coinCapData} = this.state
