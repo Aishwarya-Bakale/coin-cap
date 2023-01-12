@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+.line {
+  border-width: 1px;
+}
+.link-item {
+  font-size: 12px;
+  width: 50px;
+}
+.sub-list-item {
+  font-size: 10px;
+  color: #333030;
+}
